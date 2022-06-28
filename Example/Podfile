@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'tdkit_buryingpoint_Example' do
+  pod 'tdkit_buryingpoint', :path => '../'
+
+  target 'tdkit_buryingpoint_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
