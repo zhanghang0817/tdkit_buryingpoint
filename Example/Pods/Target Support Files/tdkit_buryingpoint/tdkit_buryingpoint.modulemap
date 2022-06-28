@@ -1,0 +1,6 @@
+framework module tdkit_buryingpoint {
+  umbrella header "tdkit_buryingpoint-umbrella.h"
+
+  export *
+  module * { export * }
+}
